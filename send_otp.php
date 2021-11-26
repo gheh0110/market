@@ -22,9 +22,9 @@ if($type=='email'){
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="agrimarketlocal@gmail.com";
-	$mail->Password="agr1mark3tl0cal";
-	$mail->SetFrom("agrimarketlocal@gmail.com");
+	$mail->Username="";
+	$mail->Password="";
+	$mail->SetFrom("");
 	$mail->addAddress($email);
 	$mail->IsHTML(true);
 	$mail->Subject="New OTP";
